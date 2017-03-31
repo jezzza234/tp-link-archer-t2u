@@ -1,0 +1,3 @@
+---- Show_STA_RAInfo_Proc Matches (2 in 1 files) ----
+Cmm_info.c (module\common):INT	Show_STA_RAInfo_Proc(
+Cmm_info.c (module\common):	{"rainfo",					Show_STA_RAInfo_Proc},

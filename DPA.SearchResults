@@ -1,0 +1,6 @@
+---- Rssi_DVGA_Acc Matches (8 in 3 files) ----
+Mt76x0.c (module\chips):	Rssi_DVGA = (pAd->StaCfg.Rssi_DVGA_Acc>>8);
+Mt76x0.c (module\chips):	//DBGPRINT(RT_DEBUG_ERROR, ("@@@ BEFORE %s(): StaCfg.Rssi_DVGA_Acc=%d, Rssi_DVGA=%d\n", __FUNCTION__, pAd->StaCfg.Rssi_DVGA_Acc, Rssi_DVGA));
+Rtmp.h (module\include):	INT32 Rssi_DVGA_Acc;
+Sync.c (module\sta):	pAd->StaCfg.Rssi_DVGA_Acc =(( (pAd->StaCfg.Rssi_DVGA_Acc * 7) / 8) + (pAd->StaCfg.BeaconRssiSample.AvgRssi0 *32));
+Sync.c (module\sta):	//DBGPRINT(RT_DEBUG_ERROR, ("PeerBeacon - pAd->StaCfg.BeaconRssiSample.AvgRssi0=%d, X32=%d, pAd->StaCfg.Rssi_DVGA_Acc=%d\n", pAd->StaCfg.BeaconRssiSample.AvgRssi0, (pAd->StaCfg.BeaconRssiSample.AvgRssi0 *32), pAd->StaCfg.Rssi_DVGA_Acc));

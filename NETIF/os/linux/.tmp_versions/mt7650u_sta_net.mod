@@ -1,0 +1,2 @@
+/root/Downloads/Archer_T2U_V1_150901/Driver/NETIF/os/linux/mt7650u_sta_net.ko
+/root/Downloads/Archer_T2U_V1_150901/Driver/NETIF/os/linux/../../os/linux/sta_ioctl.o /root/Downloads/Archer_T2U_V1_150901/Driver/NETIF/os/linux/../../os/linux/rt_main_dev.o /root/Downloads/Archer_T2U_V1_150901/Driver/NETIF/os/linux/../../common/rtusb_dev_id.o /root/Downloads/Archer_T2U_V1_150901/Driver/NETIF/os/linux/../../os/linux/usb_main_dev.o

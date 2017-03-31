@@ -1,0 +1,4 @@
+UTIL/os/linux/rt_linux.c:		pClonedPkt->dev = pRxPkt->dev;
+UTIL/os/linux/rt_linux.c:		pClonedPkt->data = pData;
+UTIL/os/linux/rt_linux.c:		pClonedPkt->len = DataSize;
+UTIL/os/linux/rt_linux.c:		pClonedPkt->tail = pClonedPkt->data + pClonedPkt->len;
